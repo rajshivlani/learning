@@ -14,11 +14,10 @@ class swi{
             System.out.println("Friday");
         } else if (n==6) {
             System.out.println("Saturday");
-        } else if (n==7) {
-            System.out.println("Sunday");
         } else {
-            System.out.println("Invalid day");
+            System.out.println("Sunday");
         }
+        
         //better case switch case
         switch(n){
             case 1:
